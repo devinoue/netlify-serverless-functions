@@ -1,0 +1,15 @@
+{
+  "name": "netlify-serverless-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
